@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(to top left, rgb(234, 196, 53), rgb(255, 185, 151));
+    width: 30vw;
+    height: fit-content;
+    margin: 20vh auto;
+    border-radius: 2vh;
+    padding: 3vh;
+    box-sizing: border-box;
+    box-shadow: 1vh 1vh 3vh black;
+}
+.container h1 {
+    text-shadow: 1vh 1vh 1.3vh black;
+}
+.container h1, .container h2 {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 7vh;
+}
+button {
+    width: 6vw;
+}
